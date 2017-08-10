@@ -1,6 +1,6 @@
 # Examples pyCrypto
 # Taken from : https://github.com/dlitz/pycrypto/blob/master/lib/Crypto/PublicKey/DSA.py
-# http://www.laurentluce.com/posts/python-and-cryptography-with-pycrypto/
+# Taken from : http://www.laurentluce.com/posts/python-and-cryptography-with-pycrypto/
 # Different testing Crypto Algorithms
 # Modified by G. Isaza Abrl 2016. UCaldas
 
