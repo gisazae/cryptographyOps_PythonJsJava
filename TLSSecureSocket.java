@@ -1,6 +1,6 @@
 //TLSSecureSocket.java
 // Mod: Gisaza (2011)
-// Remember in console -> # keytool-genkey -v -keyalg RSA -alias CertHost -keystore sslKeyStore
+// Remember in console -> # keytool -genkey -v -keyalg RSA -alias CertHost -keystore sslKeyStore
 // sslKeyStore Repositorio de Certs, creado en directorio . (remember PATH)
 // RUN java -Djavax.net.ssl.keyStore=sslKeyStore -Djavax.net.ssl.keyStorePassword=password TLSSecureSocket
 import java.io.*;
@@ -20,7 +20,7 @@ public class TLSSecureSocket {
 		try {
 			Socket s = ss.accept();
 			System.out.println( "Conexion Cliente lista !" );
-		//	get client request
+		//	obtener el client request
 			BufferedReader in = new BufferedReader(new InputStreamReader(s.getInputStream()));
 			System.out.println(in.readLine());
 		//
