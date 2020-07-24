@@ -1,4 +1,4 @@
-# openssl req -new -x509 -keyout key.pem -out server1.pem -days 365 -nodes
+# openssl req -new -x509 -keyout key.pem -out server.pem -days 365 -nodes
 from http.server import HTTPServer, BaseHTTPRequestHandler
 import ssl
 

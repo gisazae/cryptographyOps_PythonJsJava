@@ -1,5 +1,5 @@
 //TLSSecureSocket.java
-// Mod: Gisaza (2011)
+// Mod: Gisaza (2019)
 // Remember in console -> # keytool -genkey -v -keyalg RSA -alias CertHost -keystore sslKeyStore
 // sslKeyStore Repositorio de Certs, creado en directorio . (remember PATH)
 // RUN java -Djavax.net.ssl.keyStore=sslKeyStore -Djavax.net.ssl.keyStorePassword=password TLSSecureSocket

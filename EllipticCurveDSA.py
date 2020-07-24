@@ -1,7 +1,7 @@
 # Adapted from https://pypi.python.org/pypi/fastecdsa/
 # Criptosistema Híbrido para Firma Digital usando cálculo de claves
 # por curvas elípticas (parámetros Curve P256, P224) y hashing vía SHA2 y SHA3
-# Modified: GIsaza (UCALDAS)
+# Modified: G.Isaza (UCALDAS)
 
 from fastecdsa import curve, ecdsa, keys
 from hashlib import sha384
