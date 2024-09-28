@@ -9,6 +9,7 @@ def print_ports(port, state):
 def syn_scan(target, ports):
 	print("syn scan on, %s with ports %s" % (target, ports))
 	sport = RandShort()
+	sportT = RandShort()
 	for port in ports:
 		pkt = sr1(IP(dst=target)/TCP(sport=sport, dport=port, flags="S"), timeout=1, verbose=0)
 		if pkt != None:
